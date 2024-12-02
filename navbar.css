@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    align-items: center;
+    /* position: absolute;  */
+     position: fixed;
+
+}
+#navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+#navbar nav ul li a{
+    text-decoration: none;
+
+}
+#navbar nav ul li a:hover{
+    color: chartreuse;
+}
+#navbar button:hover{
+    color: blue;
+    background-color: white;
+}
+#navbar button{
+    padding: 10px;
+    background-color: red;
+
+}
+/* home section start from here */
+#home{
+    width:100% ;
+    height: 100vh;;
+    border: 1px solid green;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/05/28/36/77/1000_F_528367769_C1jxw1xnHhwqR7UZZXnNslEitxY9iN76.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.shadow{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    background-color: aqua;
+    margin: 40%;
+    box-shadow: -10px -15px 5px 1px grey;
+
+}
+.txshadow{
+   text-shadow: 10px 5px 5px red;
+}
+    
